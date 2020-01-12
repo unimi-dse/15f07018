@@ -1,6 +1,6 @@
 # Sample Package
 
-I'm a very bad student and I just want to pass the exam... this packages does nothing but it works!
+I'm a very bad student and I just want to pass the exam... this package does nothing but it works!
 
 ## Installation
 
