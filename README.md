@@ -6,7 +6,7 @@ I'm a very bad student and I just want to pass the exam... this package does not
 
 ```R
 # first install the R package "devtools" if not installed
-devtools::install_github('unimi-dse/emanuele-guidotti')
+devtools::install_github('unimi-dse/15f07018')
 ```
 
 ## Usage
