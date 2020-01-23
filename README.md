@@ -1,6 +1,6 @@
 # Sample Package
 
-I'm a very bad student and I just want to pass the exam... this package does nothing but it works!
+I'm a better student :) This package assigns a grade (pass/fail) to the projects for the exam _Coding for Data Science and Data Management_, R module (2019/2020), Master in Data Science and Economics, University of Milan.
 
 ## Installation
 
@@ -9,19 +9,21 @@ I'm a very bad student and I just want to pass the exam... this package does not
 devtools::install_github('unimi-dse/15f07018')
 ```
 
+## Dataset
+
+The package provides a dataset containing the ids for the _Coding for Data Science and Data Management_ exam, R module (2019/2020) from https://github.com/unimi-dse
+
+```R
+# dataset documentation
+?sample::repo
+```
+
 ## Usage
 
-Load the package
+Grade this project
 
 ```R
-require(sample)
+sample::grade(ids = "15f07018")
 ```
 
-The only function of the package is `hello()` and prints _"Hello, world!"_
-
-```R
-hello()
-```
-
-
-
+The function `sample::grade()` supports grading multiple (all) projects at once, and storing results into a csv file. Type `?sample::grade` for a complete description of the function and its arguments.
