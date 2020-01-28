@@ -27,18 +27,13 @@ require(sample)
 
 ### Grade
 
-The function `grade()` supports grading multiple (all) projects at once, and storing results into a csv file. Type `?grade` for a complete description of the function and its arguments.
-
-```R
-# grade this project
-grade(ids = "15f07018")
-```
+The function `grade()` evaluates the projects of the exam _Coding for Data Science and Data Management_, R module (2019/2020) from https://github.com/unimi-dse. It supports grading multiple (all) projects at once, and storing results into a csv file. Type `?grade` for a complete description of the function and its arguments.
 
 __Note__: running the function several times or grading many projects at once may raise the error "API rate limit exceeded [...]". If so, create a GitHub token to authenticate requests and increase your rate limit, as explained in the error message.
 
 ### Fibonacci
 
-The function `fibonacci()`, implemented in C++, generates the Fibonacci Sequence.
+The function `fibonacci()` is implemented in C++ and computes the Fibonacci Sequence.
 
 ```R
 fibonacci(15)
