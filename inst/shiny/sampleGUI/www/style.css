@@ -1,0 +1,21 @@
+#content {
+	text-align: center;
+	padding: 112px;
+}
+#repo {
+	text-align: center;
+}
+.shiny-input-container {
+	margin: 0 auto;
+}
+.fail, .pass {
+	font-size: 32px;
+    color: white;
+    border-radius: 56px;
+}
+.fail {
+	background: #b71c1c;
+}
+.pass {
+	background: #006064;
+}
